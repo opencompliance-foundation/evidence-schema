@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://opencompliance.aguilar-pelaez.co.uk/schemas/claim-types/network_firewall_boundary.schema.json",
+  "title": "Network Firewall Boundary State",
+  "type": "object",
+  "required": [
+    "defaultDenyInbound",
+    "declaredIngressPorts",
+    "undeclaredIngressPresent"
+  ],
+  "properties": {
+    "defaultDenyInbound": {
+      "type": "boolean"
+    },
+    "declaredIngressPorts": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "undeclaredIngressPresent": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false
+}
