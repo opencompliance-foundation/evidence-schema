@@ -13,6 +13,6 @@ The first release publishes a draft envelope for typed evidence claims and a sma
 
 ## Current notes
 
-- The schema set now covers the current synthetic claim types used by the minimal, failed, medium, stale, issued, cyber-baseline, and AI-governance ExampleCo corridors, including repo-policy and CI-policy connector examples plus a change-review governance attestation in the medium pack, freshness-downgraded evidence in the stale pack, Cyber Essentials-style cyber hygiene exports, and AI-governance attestations plus AI disclosure state.
-- The schema set also now includes candidate claim types for future expansions beyond the current public corridors.
+- The schema set now covers the current synthetic claim types used by the minimal, failed, medium, stale, issued, cyber-baseline, and AI-governance ExampleCo corridors, including repo-policy and CI-policy connector examples plus change-review, access-review-closure, vendor-terms, and incident-governance attestations in the medium or issued packs, freshness-downgraded evidence in the stale pack, Cyber Essentials-style cyber hygiene exports, and AI-governance attestations plus AI disclosure state.
+- The schema set also now includes candidate claim types for future expansions beyond the current public corridors, including configuration and patch exception attestations plus vendor or patch adequacy-boundary support artifacts.
 - The actor ontology and deterministic rejection rules live in the private runtime and docs until the public schema registry grows beyond the seed corridor.
