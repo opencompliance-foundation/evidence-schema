@@ -6,7 +6,11 @@
   "required": [
     "defaultDenyInbound",
     "declaredIngressPorts",
-    "undeclaredIngressPresent"
+    "undeclaredIngressPresent",
+    "boundaryAttachedToIngressPath",
+    "adminIngressRestricted",
+    "approvedAdminSourceRanges",
+    "unapprovedAdminIngressPresent"
   ],
   "properties": {
     "defaultDenyInbound": {
@@ -20,6 +24,23 @@
       }
     },
     "undeclaredIngressPresent": {
+      "type": "boolean"
+    },
+    "boundaryAttachedToIngressPath": {
+      "type": "boolean"
+    },
+    "adminIngressRestricted": {
+      "type": "boolean"
+    },
+    "approvedAdminSourceRanges": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "unapprovedAdminIngressPresent": {
       "type": "boolean"
     }
   },

@@ -5,7 +5,8 @@
   "required": [
     "httpsOnly",
     "minTlsVersion",
-    "managedCertificatesActive"
+    "managedCertificatesActive",
+    "plaintextDisabled"
   ],
   "properties": {
     "httpsOnly": {
@@ -19,6 +20,9 @@
       ]
     },
     "managedCertificatesActive": {
+      "type": "boolean"
+    },
+    "plaintextDisabled": {
       "type": "boolean"
     }
   },
