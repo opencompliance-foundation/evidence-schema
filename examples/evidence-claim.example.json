@@ -1,0 +1,24 @@
+{
+  "claimId": "EV-001",
+  "claimType": "identity_mfa_enforcement",
+  "collectedAt": "2026-03-24T00:00:00Z",
+  "sourceSystem": "example-idp",
+  "actor": {
+    "actorId": "idp-sync-bot",
+    "actorType": "system"
+  },
+  "controlMappings": [
+    {
+      "framework": "SOC 2",
+      "family": "access_control"
+    }
+  ],
+  "scope": {
+    "environment": "production",
+    "assetGroup": "human_admin_identities"
+  },
+  "payload": {
+    "mfaRequired": true,
+    "conditionalAccessEnabled": true
+  }
+}
