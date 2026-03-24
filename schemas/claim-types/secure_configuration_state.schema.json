@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://opencompliance.aguilar-pelaez.co.uk/schemas/claim-types/secure_configuration_state.schema.json",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/secure_configuration_state.schema.json",
   "title": "Secure Configuration State",
   "type": "object",
   "required": [

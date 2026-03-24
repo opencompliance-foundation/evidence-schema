@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://opencompliance.aguilar-pelaez.co.uk/schemas/evidence-claim.schema.json",
+  "$id": "https://opencompliancefoundation.com/schemas/evidence-claim.schema.json",
   "title": "OpenCompliance Evidence Claim",
   "type": "object",
   "required": [

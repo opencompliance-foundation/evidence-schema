@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://opencompliance.aguilar-pelaez.co.uk/schemas/claim-types/network_firewall_boundary.schema.json",
+  "$id": "https://opencompliancefoundation.com/schemas/claim-types/network_firewall_boundary.schema.json",
   "title": "Network Firewall Boundary State",
   "type": "object",
   "required": [
