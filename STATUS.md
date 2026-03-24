@@ -9,8 +9,8 @@
 - A draft payload schema now exists for the synthetic access-review export type even though the public example still withholds that evidence.
 - Draft payload schemas now also exist for synthetic repo branch-protection and CI workflow-policy exports used by the medium connector pack.
 - A draft payload schema now also exists for a synthetic change-review governance attestation so the medium corridor can publish a real mixed-control decomposition instead of only pure prove/attest/judgment leaves.
-- Draft payload schemas now also exist for planned Cyber Essentials-adjacent corridors: boundary firewalls, secure configuration, security update state, and malware-protection state.
-- Draft payload schemas now also exist for planned AI-governance corridors: AI context, AI risk management, human oversight, monitoring, and AI-generated-content disclosure state.
+- Draft payload schemas now also back the public cyber-baseline corridor: boundary firewalls, secure configuration, security update state, and malware-protection state.
+- Draft payload schemas now also back the public AI-governance corridor: AI context, AI risk management, human oversight, monitoring, and AI-generated-content disclosure state.
 
 ## What does not exist yet
 
