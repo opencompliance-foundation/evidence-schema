@@ -13,5 +13,5 @@ The first release publishes a draft envelope for typed evidence claims and a sma
 
 ## Current notes
 
-- The schema set now covers the current synthetic claim types used by the minimal, failed, medium, and issued ExampleCo corridors, including repo-policy and CI-policy connector examples in the medium pack.
+- The schema set now covers the current synthetic claim types used by the minimal, failed, medium, stale, and issued ExampleCo corridors, including repo-policy and CI-policy connector examples in the medium pack and freshness-downgraded evidence in the stale pack.
 - The actor ontology and deterministic rejection rules live in the private runtime and docs until the public schema registry grows beyond the seed corridor.
