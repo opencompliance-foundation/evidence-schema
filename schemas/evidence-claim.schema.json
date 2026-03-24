@@ -57,7 +57,8 @@
         "type": "object",
         "required": [
           "framework",
-          "family"
+          "family",
+          "controlId"
         ],
         "properties": {
           "framework": {
@@ -96,15 +97,61 @@
         "expiresAt": {
           "type": "string",
           "format": "date-time"
+        },
+        "evaluatedAt": {
+          "type": "string",
+          "format": "date-time"
         }
       },
       "additionalProperties": true
     },
     "signer": {
-      "type": "object"
+      "type": "object",
+      "required": [
+        "signerId",
+        "signerType",
+        "signatureType"
+      ],
+      "properties": {
+        "signerId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signerType": {
+          "type": "string",
+          "enum": [
+            "system",
+            "human"
+          ]
+        },
+        "signatureType": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
     },
     "provenance": {
-      "type": "object"
+      "type": "object",
+      "properties": {
+        "exportId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "collectionMethod": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourcePath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "digestAlgorithm": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": true
     }
   },
   "additionalProperties": false

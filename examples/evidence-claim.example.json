@@ -18,8 +18,18 @@
     "environment": "production",
     "assetGroup": "human_admin_identities"
   },
+  "freshness": {
+    "evaluatedAt": "2026-03-24T00:00:00Z",
+    "expiresAt": "2026-04-24T00:00:00Z"
+  },
   "payload": {
     "mfaRequired": true,
     "conditionalAccessEnabled": true
+  },
+  "provenance": {
+    "exportId": "export-exampleco-idp-2026-03-24",
+    "collectionMethod": "synthetic_export",
+    "sourcePath": "exports/idp/admin-mfa.json",
+    "digestAlgorithm": "sha256"
   }
 }
