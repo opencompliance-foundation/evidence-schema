@@ -11,6 +11,7 @@
 - A draft payload schema now also exists for a synthetic change-review governance attestation so the medium corridor can publish a real mixed-control decomposition instead of only pure prove/attest/judgment leaves.
 - Draft payload schemas now also back the public cyber-baseline corridor: boundary firewalls, secure configuration, security update state, and malware-protection state.
 - Draft payload schemas now also back the public AI-governance corridor: AI context, AI risk management, human oversight, monitoring, and AI-generated-content disclosure state.
+- Draft payload schemas now also include the next planned AI-assurance layer: AI provenance state, AI evaluation attestations, and AI data-quality governance attestations.
 - Draft payload schemas now also back the promoted encryption-at-rest slice in the medium and issued ExampleCo corridors.
 
 ## What does not exist yet
