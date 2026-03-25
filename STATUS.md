@@ -13,6 +13,7 @@
 - Draft payload schemas now also back the public AI-governance corridor: AI context, AI risk management, human oversight, monitoring, and AI-generated-content disclosure state.
 - Draft payload schemas now also include the next planned AI-assurance layer: AI provenance state, AI evaluation attestations, and AI data-quality governance attestations.
 - Draft payload schemas now also back the promoted encryption-at-rest slice in the medium and issued ExampleCo corridors.
+- Draft payload schemas now also include the next promoted planned governance-and-operations wave: facility cabling and supporting-utility attestations, agreement security-commitment attestations, ISMS context attestations, project-security attestations, security-concern handling attestations, and outsourced-development governance attestations.
 
 ## What does not exist yet
 
