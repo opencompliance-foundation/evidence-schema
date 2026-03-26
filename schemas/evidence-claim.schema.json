@@ -9,6 +9,7 @@
     "collectedAt",
     "sourceSystem",
     "actor",
+    "trustPolicyRef",
     "controlMappings",
     "payload"
   ],
@@ -44,11 +45,26 @@
           "type": "string",
           "enum": [
             "system",
-            "human"
+            "human",
+            "delegated_approver",
+            "verifier_service",
+            "independent_witness"
           ]
+        },
+        "actorRole": {
+          "type": "string",
+          "minLength": 1
+        },
+        "organizationScope": {
+          "type": "string",
+          "minLength": 1
         }
       },
       "additionalProperties": false
+    },
+    "trustPolicyRef": {
+      "type": "string",
+      "minLength": 1
     },
     "controlMappings": {
       "type": "array",
@@ -110,7 +126,10 @@
       "required": [
         "signerId",
         "signerType",
-        "signatureType"
+        "signatureType",
+        "signedAt",
+        "signerRole",
+        "trustPolicyId"
       ],
       "properties": {
         "signerId": {
@@ -120,11 +139,33 @@
         "signerType": {
           "type": "string",
           "enum": [
-            "system",
-            "human"
+            "human",
+            "delegated_approver",
+            "verifier_service",
+            "independent_witness"
           ]
         },
         "signatureType": {
+          "type": "string",
+          "minLength": 1
+        },
+        "signedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "signerRole": {
+          "type": "string",
+          "minLength": 1
+        },
+        "trustPolicyId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "delegatedBy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "delegationScope": {
           "type": "string",
           "minLength": 1
         }

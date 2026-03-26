@@ -15,9 +15,9 @@
 - Draft payload schemas now also back the promoted encryption-at-rest slice in the medium and issued ExampleCo corridors.
 - Draft payload schemas now also include the next promoted planned governance-and-operations wave: facility cabling and supporting-utility attestations, agreement security-commitment attestations, ISMS context attestations, project-security attestations, security-concern handling attestations, and outsourced-development governance attestations.
 - Draft payload schemas now also include the next promoted governance, compliance, and remote-working wave: ISMS stakeholder-register and stakeholder-obligation attestations, corrective-action process and follow-up attestations, compliance-requirement register and review attestations, intellectual-property policy and issue-handling attestations, remote-access posture state, and remote-working attestations.
+- The public evidence-claim envelope now includes trust-policy references plus delegated-approver-capable actor and signer metadata, and the schema examples now cover both system-export and delegated-approver attestation paths.
 
 ## What does not exist yet
 
 - No canonical serialization profile.
-- No full actor ontology beyond the current human/system split.
 - No schema family for certificates, witness receipts, or revocations.

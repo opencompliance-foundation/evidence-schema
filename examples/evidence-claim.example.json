@@ -5,8 +5,10 @@
   "sourceSystem": "example-idp",
   "actor": {
     "actorId": "idp-sync-bot",
-    "actorType": "system"
+    "actorType": "system",
+    "actorRole": "connector_service"
   },
+  "trustPolicyRef": "oc.trust.system-export",
   "controlMappings": [
     {
       "framework": "SOC 2",
